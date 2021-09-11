@@ -12,7 +12,7 @@ export class Home extends Component {
                 </div>
           
                 <div className="grid grid-rows-9 md:grid-cols-7 md:row-span-8 row-span-11 "> 
-                    <div className="NewMeeting row-span-1 md:row-span-full md:col-span-3 bg-gray-800 sticky z-0 border-b md:border-r border-gray-700 text-gray-300 ">
+                    <div className="NewMeeting row-span-1 md:row-span-full md:col-span-3 bg-gray-800 sticky z-0 border-b md:border-r border-gray-700 pb-3">
                         <NewMeet/>
                     </div>
                     

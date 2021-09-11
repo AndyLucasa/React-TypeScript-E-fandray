@@ -3,6 +3,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      colors: {
+        'deep-orange': {
+          400: '#FF742E',
+        },
+        
+      },
       fontFamily: {
         'poppins': ["Poppins", 'sans-serif'] ,
         'karla': ["Karla", 'sans-serif'],
