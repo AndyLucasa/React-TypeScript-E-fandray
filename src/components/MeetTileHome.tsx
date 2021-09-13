@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import {MdMoreHoriz} from 'react-icons/md'
 import {AiOutlineClockCircle} from 'react-icons/ai'
 
@@ -36,7 +36,7 @@ export class MeetTileHome extends React.Component<TileProps> {
                     <div className="h-9 mr-2 lg:h-12 w-9 lg:w-12 flex items-center justify-center ">
                         <img src={this.props.peopleImg3} alt="iphone" className="w-full h-full rounded-md object-cover"/>
                     </div>
-                    <div className={`h-9 mr-6 md:mr-32 lg:mr-44 lg:h-12 w-9 lg:w-12 flex items-center justify-center rounded-lg ${(this.props.peopleOverflow=="")?'bg-transparent' :'bg-blue-500 shadow-xl'}`}>
+                    <div className={`h-9 mr-6 md:mr-32 lg:mr-44 lg:h-12 w-9 lg:w-12 flex items-center justify-center rounded-lg ${(this.props.peopleOverflow === "")?'bg-transparent' :'bg-blue-500 shadow-xl'}`}>
                         <p className="font-poppins text-sm text-white">{this.props.peopleOverflow}</p>
                     </div>
                     <div className="h-9 mr-2 lg:h-12 w-9 lg:w-12 flex items-center justify-center md:border border-gray-100 border-opacity-20 bg-white backdrop-filter backdrop-blur-lg md:bg-opacity-25 bg-opacity-0 rounded-md lg:rounded-xl">

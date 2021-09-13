@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import Decoration from '../assets/img1.jpeg'
-import {MdMoreHoriz} from 'react-icons/md'
-import {AiOutlineClockCircle} from 'react-icons/ai'
 import People1 from '../assets/people1.jpeg'
 import People2 from '../assets/people2.jpeg'
 import People3 from '../assets/people3.jpeg'
