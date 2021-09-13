@@ -17,7 +17,7 @@ export class Home extends Component {
                         <NewMeet/>
                     </div>
                     
-                    <div className="MyMeet md:overflow-auto bg-gray-800 row-span-8 md:row-span-full md:col-span-4 text-gray-300 pt-3 h-full">
+                    <div className="MyMeet scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-gray-800 scrollbar-thumb-rounded-full scrollbar-track-rounded-full md:overflow-y-auto bg-gray-800 row-span-8 md:row-span-full md:col-span-4 text-gray-300 pt-3 h-full">
                         <ListMeetHome/>
                     </div>
                 </div>

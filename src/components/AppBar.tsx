@@ -9,7 +9,7 @@ export class AppBar extends Component {
 
     render() {
         return (
-            <div className="AppBar py-1 md:py-2 h-auto w-full bg-gray-900 md:bg-gray-800  grid grid-cols-12 items-center fixed z-20 top-0 md:border-b border-gray-700 shadow-lg text-gray-200">
+            <div className="AppBar py-1 md:py-2 h-16 md:h-auto w-full bg-gray-900 md:bg-gray-800  grid grid-cols-12 items-center fixed z-20 top-0 md:border-b border-gray-700 shadow-lg text-gray-200">
                 <div className="Menu col-span-2 h-14 flex items-center justify-center">
                     <BurgerMenu/>
                 </div>

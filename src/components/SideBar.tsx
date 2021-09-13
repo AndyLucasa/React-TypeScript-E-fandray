@@ -8,7 +8,7 @@ import Me from '../assets/me2.png'
 export class SideBar extends Component {
     render() {
         return (
-            <div className="grid grid-col-12 h-full">
+            <div className="grid grid-col-12 h-screen">
                 <div className=" h-20 flex items-center justify-center ">
                     <div className="h-10 md:h-12 w-10 md:w-12 flex items-center justify-center bg-blue-500 rounded-xl">
                         <TiVideo className="text-gray-100 block w-11 h-11 md:w-8 md:h-8 shadow-xl"/>

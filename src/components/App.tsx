@@ -12,7 +12,7 @@ function App() {
           <SideBar />
         </div>
 
-        <div className="MeetContainer overscroll-auto col-span-full md:col-span-13 bg-gray-800 grid grid-rows-12 md:grid-rows-9 xl:h-screen">
+        <div className="MeetContainer overscroll-auto col-span-full md:col-span-13 bg-gray-800 grid grid-rows-12 md:grid-rows-9 md:h-screen">
           <Home/>
         </div>
       </div>
