@@ -21,7 +21,7 @@ export class CallTile extends React.Component<CallProps> {
                     </div>
                 </div>
                 
-                <img src={this.props.peopleImg} alt="photo" className="relative w-full h-full rounded-lg object-cover"/>
+                <img src={this.props.peopleImg} alt="photoPeople" className="relative w-full h-full rounded-lg object-cover"/>
             </>
         )
     }

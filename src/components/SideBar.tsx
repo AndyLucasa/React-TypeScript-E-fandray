@@ -16,22 +16,22 @@ export class SideBar extends Component {
                     </div>
                 </div>
 
-                <div className="row-span-8 mx-4 flex flex-col items-center mt-8 ">
+                <div className="row-span-8 mx-2 lg:mx-4 flex flex-col items-center mt-8 ">
                     <Link to="/">
                         <div className="h-9 md:h-11 w-9 md:w-11 flex items-center border border-gray-100 border-opacity-20 bg-gray-700 justify-center rounded-xl mb-5">
                             <RiHome5Fill className="text-gray-100 block w-9 h-9 md:w-6 md:h-6 shadow-xl"/>
+                        </div>
+                    </Link>
+                    
+                    <Link to="/meeting">
+                        <div className="h-9 md:h-11 w-9 md:w-11 flex items-center justify-center rounded-xl mb-5">
+                            <TiVideo className="text-gray-100 block w-9 h-9 md:w-6 md:h-6 shadow-xl"/>
                         </div>
                     </Link>
 
                     <Link to="/">
                         <div className="h-9 md:h-11 w-9 md:w-11 flex items-center justify-center rounded-xl mb-5">
                             <AiFillMessage className="text-gray-100 block w-9 h-9 md:w-6 md:h-6 shadow-xl"/>
-                        </div>
-                    </Link>
-
-                    <Link to="/meeting">
-                        <div className="h-9 md:h-11 w-9 md:w-11 flex items-center justify-center rounded-xl mb-5">
-                            <TiVideo className="text-gray-100 block w-9 h-9 md:w-6 md:h-6 shadow-xl"/>
                         </div>
                     </Link>
 
