@@ -14,7 +14,7 @@ interface TileProps {
 export class MeetTileHome extends React.Component<TileProps> {
     render() {
         return (
-            <div className=" justify-around flex flex-col py-6 px-4 lg:px-5 h-40 lg:h-48 mx-8 md:mx-10 lg:mx-16 mb-8 rounded-xl bg-white border border-gray-100 border-opacity-20 backdrop-filter backdrop-blur-lg bg-opacity-10 shadow-xl">
+            <div className="animate__animated animate__fadeInRight justify-around flex flex-col py-6 px-4 lg:px-5 h-40 lg:h-48 mx-8 md:mx-10 lg:mx-16 mb-8 rounded-xl bg-white border border-gray-100 border-opacity-20 backdrop-filter backdrop-blur-lg bg-opacity-10 shadow-xl">
                 <div className="grid grid-flow-col justify-between">
                     <p className="text-left font-poppins text-sm lg:text-base text-white">{this.props.title}</p>
                     <div className="h-7 w-10 flex items-center justify-center md:border border-gray-100 border-opacity-20 bg-white backdrop-filter backdrop-blur-lg bg-opacity-10  rounded-lg">

@@ -15,7 +15,7 @@ import MeetTileHome from './MeetTileHome'
 export class ListMeetHome extends Component {
     render() {
         return (
-            <div className="relative pt-0 md:pt-10 ">
+            <div className="relative pt-0 md:pt-10 animate__animated animate__fadeInRight animate__slower">
                 <div className="h-40 lg:h-48 mx-8 md:mx-10 lg:mx-16 mb-5 lg:mb-8 rounded-xl">
                     <div className="z-10 absolute h-24 w-auto mt-24 md:mt-20 lg:mt-24 ml-3 md:ml-4">
                         <p className="text-left text-2xl md:text-3xl lg:text-5xl font-righteous text-gray-100">IGGLIA 3 - N° 48</p>

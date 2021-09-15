@@ -3,7 +3,6 @@ import {BiMessageSquare} from 'react-icons/bi'
 import { IoIosArrowUp } from 'react-icons/io'
 import MessageTile from './MessageTile'
 import People11 from '../assets/people11.jpeg'
-import People4 from '../assets/people4.jpeg'
 import People10 from '../assets/people10.jpeg'
 import People12 from '../assets/people12.jpeg'
 
