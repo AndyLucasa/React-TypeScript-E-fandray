@@ -30,31 +30,31 @@ export class SideBar extends Component<BarProps> {
 
                 <div className="row-span-8 mx-2 lg:mx-4 flex flex-col items-center mt-8 ">
                     <Link to="/" onClick={this.toHome} >
-                        <div className={`animate__animated animate__bounceIn h-9 md:h-11 w-9 md:w-11 flex items-center justify-center rounded-xl mb-5 ${this.props.isHome ?'border border-gray-100 border-opacity-20 bg-gray-700' : ''}`}>
+                        <div className={`animate__animated animate__bounceIn h-9 md:h-11 w-9 md:w-11 flex items-center hover:bg-gray-900 justify-center rounded-xl mb-5 ${this.props.isHome ?'border border-gray-100 border-opacity-20 bg-gray-700' : ''}`}>
                             <RiHome5Fill className="text-gray-100 block w-9 h-9 md:w-6 md:h-6 shadow-xl"/>
                         </div>
                     </Link>
                     
                     <Link to="/meeting">
-                        <div className={`animate__animated animate__bounceIn h-9 md:h-11 w-9 md:w-11 flex items-center justify-center rounded-xl mb-5 ${this.props.isMeet ?'border border-gray-100 border-opacity-20 bg-gray-700' : ''}`}>
+                        <div className={`animate__animated animate__bounceIn h-9 md:h-11 w-9 md:w-11 flex items-center hover:bg-gray-900  justify-center rounded-xl mb-5 ${this.props.isMeet ?'border border-gray-100 border-opacity-20 bg-gray-700' : ''}`}>
                             <TiVideo className="text-gray-100 block w-9 h-9 md:w-6 md:h-6 shadow-xl"/>
                         </div>
                     </Link>
 
                     <Link to="/blank">
-                        <div className={`animate__animated animate__bounceIn h-9 md:h-11 w-9 md:w-11 flex items-center justify-center rounded-xl mb-5 ${this.props.isChat ?'border border-gray-100 border-opacity-20 bg-gray-700' : ''}`}>
+                        <div className={`animate__animated animate__bounceIn h-9 md:h-11 w-9 md:w-11 flex items-center hover:bg-gray-900 justify-center rounded-xl mb-5 ${this.props.isChat ?'border border-gray-100 border-opacity-20 bg-gray-700' : ''}`}>
                             <AiFillMessage className="text-gray-100 block w-9 h-9 md:w-6 md:h-6 shadow-xl"/>
                         </div>
                     </Link>
 
                     <Link to="/blank">
-                        <div className={`animate__animated animate__bounceIn h-9 md:h-11 w-9 md:w-11 flex items-center justify-center rounded-xl mb-5 ${this.props.isPlan ?'border border-gray-100 border-opacity-20 bg-gray-700' : ''}`}>
+                        <div className={`animate__animated animate__bounceIn h-9 md:h-11 w-9 md:w-11 flex items-center hover:bg-gray-900 justify-center rounded-xl mb-5 ${this.props.isPlan ?'border border-gray-100 border-opacity-20 bg-gray-700' : ''}`}>
                             <AiFillClockCircle className="text-gray-100 block w-9 h-9 md:w-6 md:h-6 shadow-xl"/>
                         </div>
                     </Link>
 
                     <Link to="/blank">
-                        <div className={`animate__animated animate__bounceIn h-9 md:h-11 w-9 md:w-11 flex items-center justify-center rounded-xl mb-5 ${this.props.isSchedule ?'border border-gray-100 border-opacity-20 bg-gray-700' : ''}`}>
+                        <div className={`animate__animated animate__bounceIn h-9 md:h-11 w-9 md:w-11 flex items-center hover:bg-gray-900 justify-center rounded-xl mb-5 ${this.props.isSchedule ?'border border-gray-100 border-opacity-20 bg-gray-700' : ''}`}>
                             <FaCalendarDay className="text-gray-100 block w-9 h-9 md:w-6 md:h-6 shadow-xl"/>
                         </div>
                     </Link>
