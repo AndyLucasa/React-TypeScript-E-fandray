@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/React-TypeScript-E-fandray/static/css/main.562d526e.chunk.css",
+    "main.js": "/React-TypeScript-E-fandray/static/js/main.c6d05f3c.chunk.js",
+    "main.js.map": "/React-TypeScript-E-fandray/static/js/main.c6d05f3c.chunk.js.map",
+    "runtime-main.js": "/React-TypeScript-E-fandray/static/js/runtime-main.cb1160d1.js",
+    "runtime-main.js.map": "/React-TypeScript-E-fandray/static/js/runtime-main.cb1160d1.js.map",
+    "static/css/2.96b26686.chunk.css": "/React-TypeScript-E-fandray/static/css/2.96b26686.chunk.css",
+    "static/js/2.3e11464a.chunk.js": "/React-TypeScript-E-fandray/static/js/2.3e11464a.chunk.js",
+    "static/js/2.3e11464a.chunk.js.map": "/React-TypeScript-E-fandray/static/js/2.3e11464a.chunk.js.map",
+    "static/js/3.5d262dd8.chunk.js": "/React-TypeScript-E-fandray/static/js/3.5d262dd8.chunk.js",
+    "static/js/3.5d262dd8.chunk.js.map": "/React-TypeScript-E-fandray/static/js/3.5d262dd8.chunk.js.map",
+    "index.html": "/React-TypeScript-E-fandray/index.html",
+    "static/css/2.96b26686.chunk.css.map": "/React-TypeScript-E-fandray/static/css/2.96b26686.chunk.css.map",
+    "static/css/main.562d526e.chunk.css.map": "/React-TypeScript-E-fandray/static/css/main.562d526e.chunk.css.map",
+    "static/js/2.3e11464a.chunk.js.LICENSE.txt": "/React-TypeScript-E-fandray/static/js/2.3e11464a.chunk.js.LICENSE.txt",
+    "static/media/blank.6b3764f0.png": "/React-TypeScript-E-fandray/static/media/blank.6b3764f0.png",
+    "static/media/img1.86b3442a.jpeg": "/React-TypeScript-E-fandray/static/media/img1.86b3442a.jpeg",
+    "static/media/me2.4a84b947.png": "/React-TypeScript-E-fandray/static/media/me2.4a84b947.png",
+    "static/media/people1.b0ee8386.jpeg": "/React-TypeScript-E-fandray/static/media/people1.b0ee8386.jpeg",
+    "static/media/people10.70eaf44c.jpeg": "/React-TypeScript-E-fandray/static/media/people10.70eaf44c.jpeg",
+    "static/media/people11.edc2c3b2.jpeg": "/React-TypeScript-E-fandray/static/media/people11.edc2c3b2.jpeg",
+    "static/media/people12.84bf7da6.jpeg": "/React-TypeScript-E-fandray/static/media/people12.84bf7da6.jpeg",
+    "static/media/people2.b0c328f4.jpeg": "/React-TypeScript-E-fandray/static/media/people2.b0c328f4.jpeg",
+    "static/media/people3.9242ad02.jpeg": "/React-TypeScript-E-fandray/static/media/people3.9242ad02.jpeg",
+    "static/media/people4.c6a31bb9.jpeg": "/React-TypeScript-E-fandray/static/media/people4.c6a31bb9.jpeg",
+    "static/media/people5.33342c3c.jpeg": "/React-TypeScript-E-fandray/static/media/people5.33342c3c.jpeg",
+    "static/media/people6.0d84b17f.jpeg": "/React-TypeScript-E-fandray/static/media/people6.0d84b17f.jpeg",
+    "static/media/people7.23f09907.jpeg": "/React-TypeScript-E-fandray/static/media/people7.23f09907.jpeg",
+    "static/media/people8.a52ba4c5.jpeg": "/React-TypeScript-E-fandray/static/media/people8.a52ba4c5.jpeg",
+    "static/media/people9.adae4f81.jpeg": "/React-TypeScript-E-fandray/static/media/people9.adae4f81.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb1160d1.js",
+    "static/css/2.96b26686.chunk.css",
+    "static/js/2.3e11464a.chunk.js",
+    "static/css/main.562d526e.chunk.css",
+    "static/js/main.c6d05f3c.chunk.js"
+  ]
+}
