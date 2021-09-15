@@ -21,7 +21,7 @@ function App() {
             <div className="row-span-1">
                 <AppBar />
             </div>
-            <Route path="/" exact component={Home}/>
+            <Route path="/" component={Home}/>
             <Route path="/meeting" exact component={Meeting}/>
             <Route path="/blank" exact component={BlankPage}/>
           </div>
