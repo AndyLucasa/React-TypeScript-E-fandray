@@ -41,19 +41,19 @@ export class SideBar extends Component<BarProps> {
                         </div>
                     </Link>
 
-                    <Link to="/">
+                    <Link to="/blank">
                         <div className={`animate__animated animate__bounceIn h-9 md:h-11 w-9 md:w-11 flex items-center justify-center rounded-xl mb-5 ${this.props.isChat ?'border border-gray-100 border-opacity-20 bg-gray-700' : ''}`}>
                             <AiFillMessage className="text-gray-100 block w-9 h-9 md:w-6 md:h-6 shadow-xl"/>
                         </div>
                     </Link>
 
-                    <Link to="/">
+                    <Link to="/blank">
                         <div className={`animate__animated animate__bounceIn h-9 md:h-11 w-9 md:w-11 flex items-center justify-center rounded-xl mb-5 ${this.props.isPlan ?'border border-gray-100 border-opacity-20 bg-gray-700' : ''}`}>
                             <AiFillClockCircle className="text-gray-100 block w-9 h-9 md:w-6 md:h-6 shadow-xl"/>
                         </div>
                     </Link>
 
-                    <Link to="/">
+                    <Link to="/blank">
                         <div className={`animate__animated animate__bounceIn h-9 md:h-11 w-9 md:w-11 flex items-center justify-center rounded-xl mb-5 ${this.props.isSchedule ?'border border-gray-100 border-opacity-20 bg-gray-700' : ''}`}>
                             <FaCalendarDay className="text-gray-100 block w-9 h-9 md:w-6 md:h-6 shadow-xl"/>
                         </div>

@@ -6,6 +6,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Meeting from './Meeting';
 import AppBar from './AppBar'
 import "animate.css"
+import BlankPage from './BlankPage';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             </div>
             <Route path="/" exact component={Home}/>
             <Route path="/meeting" exact component={Meeting}/>
+            <Route path="/blank" exact component={BlankPage}/>
           </div>
         </Router>
         
